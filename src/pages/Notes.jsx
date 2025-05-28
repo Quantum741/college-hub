@@ -7,8 +7,9 @@ import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 
 // ==== Cloudinary config ====
-const CLOUD_NAME = "your_cloud_name"; // <-- replace with your Cloudinary cloud name
-const UPLOAD_PRESET = "unsigned_present"; // <-- replace with your unsigned upload preset
+const CLOUD_NAME = "myclassnotes"; // Example only, use your actual cloud name
+const UPLOAD_PRESET = "unsigned_present";
+ // <-- replace with your unsigned upload preset
 
 // ==== Semester/Subject Data ====
 const SEMESTERS = [
