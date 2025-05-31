@@ -2,7 +2,7 @@
   "name": "college-hub",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gaurav-lab-beep.github.io/mc-",
+  "homepage": "https://quantum741.github.io/college-hub/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -22,13 +22,12 @@
     "react-router-dom": "^7.6.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
   "eslintConfig": {
     "extends": [
       "react-app",
