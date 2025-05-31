@@ -58,7 +58,8 @@ function Navbar() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/college-hub">
+      {/* 👆 Add basename to match your GitHub Pages repo */}
       <div className="App">
         <Navbar />
         <main className="main-content">
